@@ -175,7 +175,7 @@ fi
 echo "[*] Unpacking /tmp/xmrig.tar.gz to $HOME/c3pool"
 echo "[*] 解压 /tmp/xmrig.tar.gz 到 $HOME/c3pool"
 [ -d $HOME/c3pool ] || mkdir $HOME/c3pool
-if ! tar xf /tmp/xmrig.tar.gz -C $HOME/c3pool; then
+if ! tar -xvf /tmp/xmrig.tar.gz -C $HOME/c3pool; then
   echo "ERROR: Can't unpack /tmp/xmrig.tar.gz to $HOME/c3pool directory"
   echo "发生错误: 无法解压 /tmp/xmrig.tar.gz 到 $HOME/c3pool 目录"
   exit 1
